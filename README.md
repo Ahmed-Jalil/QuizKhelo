@@ -58,11 +58,22 @@ Assignment Requirements:
 
    Splash Screen:
 
+   ![image](https://github.com/user-attachments/assets/8e24ca59-5d7b-469c-b143-d1d149f324a2)
+
    Start Screen:
+
+   ![image](https://github.com/user-attachments/assets/0d9d08a2-b029-4597-8c63-bdac81ceb562)
+
 
    Quiz Screen:
 
+   ![image](https://github.com/user-attachments/assets/dc85d031-759e-40dd-9fb1-232d398b4040)
+   
+
    Result Screen:
+
+   ![image](https://github.com/user-attachments/assets/89a86c36-f158-43d6-b53b-1cd57836f51d)
+
 
 Additional Instructions:
 
