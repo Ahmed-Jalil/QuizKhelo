@@ -1,5 +1,4 @@
-**MCQ-Based Quiz App in Android (Java):
-**
+MCQ-Based Quiz App in Android (Java)
 Objective:
 
 Create a fully functional MCQ-based Quiz App in Android (Java) that demonstrates the use of:
