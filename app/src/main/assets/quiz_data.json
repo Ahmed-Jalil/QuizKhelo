@@ -1,0 +1,64 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "Which component is responsible for handling interactions between UI elements in an Android app?",
+      "options": ["Activity", "Service", "Broadcast Receiver", "Content Provider"],
+      "correctAnswer": "Activity"
+    },
+    {
+      "id": 2,
+      "question": "What is the main purpose of an Android Manifest file?",
+      "options": ["Defines UI layout", "Declares components", "Manages memory", "Handles network requests"],
+      "correctAnswer": "Declares components"
+    },
+    {
+      "id": 3,
+      "question": "Which component runs in the background to perform long-running operations?",
+      "options": ["Activity", "Service", "Intent", "Fragment"],
+      "correctAnswer": "Service"
+    },
+    {
+      "id": 4,
+      "question": "Which Android component is used to share data between applications?",
+      "options": ["Intent", "Broadcast Receiver", "Content Provider", "Service"],
+      "correctAnswer": "Content Provider"
+    },
+    {
+      "id": 5,
+      "question": "What is the entry point of an Android application?",
+      "options": ["MainActivity", "AndroidManifest.xml", "Launcher", "Intent"],
+      "correctAnswer": "MainActivity"
+    },
+    {
+      "id": 6,
+      "question": "Which XML attribute is used to uniquely identify UI components?",
+      "options": ["android:name", "android:tag", "android:id", "android:label"],
+      "correctAnswer": "android:id"
+    },
+    {
+      "id": 7,
+      "question": "Which Android layout allows placing UI elements relative to each other?",
+      "options": ["LinearLayout", "RelativeLayout", "ConstraintLayout", "FrameLayout"],
+      "correctAnswer": "RelativeLayout"
+    },
+    {
+      "id": 8,
+      "question": "Which data storage option is best for storing key-value pairs in Android?",
+      "options": ["SQLite", "SharedPreferences", "Internal Storage", "External Storage"],
+      "correctAnswer": "SharedPreferences"
+    },
+    {
+      "id": 9,
+      "question": "Which method is used to navigate between activities in Android?",
+      "options": ["startService()", "startActivity()", "sendBroadcast()", "onCreate()"],
+      "correctAnswer": "startActivity()"
+    },
+    {
+      "id": 10,
+      "question": "Which Android component allows displaying dynamic lists efficiently?",
+      "options": ["ListView", "RecyclerView", "GridLayout", "ScrollView"],
+      "correctAnswer": "RecyclerView"
+    }
+  ]
+}

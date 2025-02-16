@@ -5,4 +5,8 @@
     <string name="tv_name_text">Enter your name</string>
     <string name="tv_main_hint_text">John Doe...</string>
     <string name="btn_main_text">Start</string>
+    <string name="btn_next_text">Next</string>
+    <string name="btn_previous_txt"><![CDATA[< Previous]]></string>
+    <string name="btn_previous_text"><![CDATA[< Previous]]></string>
+    <string name="tv_quiz_number_text">1/10</string>
 </resources>

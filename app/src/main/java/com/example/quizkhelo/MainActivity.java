@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
                 String userName = nameInput.getText().toString().trim();
 
                 if (!userName.isEmpty()) {
-                    Intent intent = new Intent(MainActivity.this, QuizActivity.class);
+                    Intent intent;
+                    intent = new Intent(MainActivity.this, QuizActivity.class);
                     intent.putExtra("USER_NAME", userName);
                     startActivity(intent);
                 } else {
