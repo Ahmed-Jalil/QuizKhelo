@@ -15,20 +15,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class QuizActivity extends AppCompatActivity {
-    private TextView tvQuestion, tvQuizNumber, tvBtnPrevious;
-    private Button btnNext;
-    private RadioButton rbOption1, rbOption2, rbOption3, rbOption4;
-    private RadioGroup radioGroup;
+    TextView tvQuestion, tvQuizNumber, tvBtnPrevious;
+    Button btnNext;
+    RadioButton rbOption1, rbOption2, rbOption3, rbOption4;
+    RadioGroup radioGroup;
 
-    private List<QuizQuestion> questionsList = new ArrayList<>();
-    private int currentQuestionIndex = 0;
-    private int score = 0;
-    private List<Integer> selectedAnswers; // Store selected options
+    List<QuizQuestion> questionsList = new ArrayList<>();
+    int currentQuestionIndex = 0;
+    int score = 0;
+    List<Integer> selectedAnswers; // Store selected options
+    String userName; // Store User Name
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+
+        // Retrieve User Name from Intent
+        userName = getIntent().getStringExtra("USER_NAME");
 
         // Initialize views
         tvQuestion = findViewById(R.id.tvQuestion);
@@ -67,6 +71,7 @@ public class QuizActivity extends AppCompatActivity {
                 } else {
                     // If last question, navigate to ResultActivity
                     Intent intent = new Intent(QuizActivity.this, ResultActivity.class);
+                    intent.putExtra("USER_NAME", userName); // Pass Name
                     intent.putExtra("score", score);
                     intent.putExtra("totalQuestions", questionsList.size());
                     startActivity(intent);
@@ -74,7 +79,6 @@ public class QuizActivity extends AppCompatActivity {
                 }
             }
         });
-
 
         // Previous Button Logic
         tvBtnPrevious.setOnClickListener(v -> {
@@ -144,7 +148,6 @@ public class QuizActivity extends AppCompatActivity {
             btnNext.setText("Next");
         }
     }
-
 
     private void saveSelectedAnswer() {
         int selectedAnswerIndex = -1;
