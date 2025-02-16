@@ -6,7 +6,13 @@
     <string name="tv_main_hint_text">John Doe...</string>
     <string name="btn_main_text">Start</string>
     <string name="btn_next_text">Next</string>
-    <string name="btn_previous_txt"><![CDATA[< Previous]]></string>
     <string name="btn_previous_text"><![CDATA[< Previous]]></string>
+    <string name="btn_previous_result_text"><![CDATA[ < ]]></string>
     <string name="tv_quiz_number_text">1/10</string>
+    <string name="btn_share_score">Share Score</string>
+    <string name="tv_user_score">0/10</string>
+    <string name="tv_scoreboard_text">Scoreboard</string>
+    <string name="tv_question_text">Question will appear here</string>
+    <string name="rd_option_text">Option 1</string>
+    <string name="tv_score_display_text">6/10</string>
 </resources>

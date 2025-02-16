@@ -61,7 +61,7 @@
             android:textColor="@color/black"
             android:textSize="22sp"
             android:padding="15dp"
-            android:text="Question will appear here" />
+            android:text="@string/tv_question_text" />
 
         <!-- Options -->
         <RadioGroup
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/option_design_bg"
                 android:layout_marginBottom="20dp"
-                android:text="Option 1"
+                android:text="@string/rd_option_text"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:padding="10dp"
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/option_design_bg"
                 android:layout_marginBottom="20dp"
-                android:text="Option 2"
+                android:text="@string/rd_option_text"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:padding="10dp"
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/option_design_bg"
                 android:layout_marginBottom="20dp"
-                android:text="Option 3"
+                android:text="@string/rd_option_text"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:padding="10dp"
@@ -112,7 +112,7 @@
                 android:id="@+id/rbOption4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Option 4"
+                android:text="@string/rd_option_text"
                 android:textSize="18sp"
                 android:textColor="@color/black"
                 android:background="@drawable/option_design_bg"
@@ -129,14 +129,12 @@
         android:id="@+id/btnNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text="@string/btn_next_text"
         android:textSize="20sp"
         android:backgroundTint="@color/quizButton"
         android:textColor="@color/white"
         android:layout_marginTop="70dp"
         android:padding="15dp"
-
-
 
         />
 

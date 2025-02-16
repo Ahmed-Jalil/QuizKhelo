@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/iv_splash_page_background_text"
-        android:src="@drawable/splash_background"
+        android:src="@drawable/background_image"
         android:scaleType="fitXY" />
 
     <!-- App Logo -->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Image -->
+    <item>
+        <bitmap
+            android:src="@drawable/background_image"
+            android:gravity="fill"/>
+    </item>
+
+    <!-- Curved Shape -->
+    <item>
+        <vector
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="400dp"
+            android:height="250dp"
+            android:viewportWidth="400"
+            android:viewportHeight="250">
+
+            <path
+                android:fillColor="@color/quizBackground"
+                android:pathData="M0,250 Q200,100 400,250 L400,0 L0,0 Z"/>
+        </vector>
+    </item>
+
+</layer-list>
